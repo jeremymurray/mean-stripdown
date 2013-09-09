@@ -1,0 +1,13 @@
+Dependency Injection in a Controller
+regardless or parameter -> regardless of parameter
+
+Fantasy Team Routing/AngularJS Routing
+app/config.js -> public/js/config.js
+
+Fantasy Teams Controller
+public/js/controllers/fantasyteams.js
+$location.path("fantasyteams/" + response._id)); -> $location.path("fantasyteams/" + response._id);
+
+Fantasy Teams Controller
+public/js/controllers/fantasyteams.js
+$scope.fantasyteams = teams; -> $scope.fantasyteams = fantasyteams;
