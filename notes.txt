@@ -1,3 +1,8 @@
+General
+Copy/Paste of examples adds line numbers in Chrome and IE on Windows.
+Several examples are missing semi-colons.
+Auto-scrolling of the outline view is off in position for the Adding Fantasy Teams/Building the Player Picker sections.
+
 Dependency Injection in a Controller
 regardless or parameter -> regardless of parameter
 
@@ -11,3 +16,22 @@ $location.path("fantasyteams/" + response._id)); -> $location.path("fantasyteams
 Fantasy Teams Controller
 public/js/controllers/fantasyteams.js
 $scope.fantasyteams = teams; -> $scope.fantasyteams = fantasyteams;
+
+Adding Fantasy Teams/Frontend Views
+Add note to create new directory for views.
+
+Building The Player Picker/Directive Components
+public/js.controllers/players.js -> public/js/controllers/players.js
+Add note to modify public/js/app.js and app/views/includes/foot.jade.
+
+Building The Player Picker/Wiring It All Up
+<div ng-controller=”PlayersController”> -> <div ng-controller='PlayersController'>
+
+Building The Player Picker/Players Frontend
+In the players/list.html view, append a simple repeater to spit out all players returned:
+-> Code example shows a three line version of list.html; is it supposed to be a new additional line after the existing Positions, Team, SearchLimit tags?
+-> This is replaced in the section immediately below to do actual filtering.  Maybe just a reword would make it less confusing.
+
+Building The Player Picker/Refactor
+Create positionselect.html -> Update positionselect.html
+Create nflteamselect.html -> Update nflteamselect.html

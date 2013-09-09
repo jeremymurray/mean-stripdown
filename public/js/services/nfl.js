@@ -37,6 +37,15 @@ window.angular.module('ngff.services.nfl', [])
             {"abbr": "WAS", "team": "Washington", "mascot": "Redskins", "conference": "NFC", "division": "East"}
         ];
 
+        NFL.positions = [
+            {"abbr": "QB", "pos": "Quarterback"},
+            {"abbr": "RB", "pos": "Runningback"},
+            {"abbr": "WR", "pos": "Wide Receiver"},
+            {"abbr": "TE", "pos": "Tight End"},
+            {"abbr": "K", "pos": "Kicker"},
+            {"abbr": "D/ST", "pos": "Defense/Special Teams"}
+        ];
+
         return NFL;
     });
 
